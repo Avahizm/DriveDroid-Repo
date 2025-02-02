@@ -1,0 +1,24 @@
+{
+  "name": "My Linux Repo",
+  "version": 1,
+  "images": [
+    {
+      "name": "Ubuntu 24.04 LTS",
+      "url": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso",
+      "checksum": "sha256:abc123... (ubuntu ISO-nun rəsmi SHA256 hashı)",
+      "category": "Desktop"
+    },
+    {
+      "name": "Debian 12",
+      "url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.5.0-amd64-DVD-1.iso",
+      "checksum": "sha256:def456... (debian ISO-nun rəsmi hashı)",
+      "category": "Server"
+    },
+    {
+      "name": "Arch Linux",
+      "url": "https://mirror.rackspace.com/archlinux/iso/2024.06.01/archlinux-2024.06.01-x86_64.iso",
+      "checksum": "sha256:ghi789...",
+      "category": "Minimal"
+    }
+  ]
+}
